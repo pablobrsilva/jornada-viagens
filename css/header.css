@@ -18,6 +18,10 @@ header {
     margin-bottom: 21px;
 }
 
+input[type="checkbox"]:checked ~ nav {
+    display: block;
+}
+
 nav {
     display: none;
 }
