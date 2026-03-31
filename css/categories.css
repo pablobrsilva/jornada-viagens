@@ -1,0 +1,32 @@
+.categories {
+    margin-top: 88px;
+}
+
+.categorie-heading{
+    padding: 0 56px;    
+}
+
+.categories-cards {
+    display: flex;
+    background-color: var(--background-secondary-color);
+    justify-content: center;
+    margin: 32px 24px;
+}
+
+.categorie-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 41px 0;
+    gap: 24px;
+}
+
+.categories-cards a {
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: var(--title-weight);
+    color: var(--text-primary-color);
+    text-decoration: none;
+}
