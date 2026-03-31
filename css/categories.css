@@ -11,6 +11,7 @@
     background-color: var(--background-secondary-color);
     justify-content: center;
     margin: 32px 24px;
+    border-radius: 8px;
 }
 
 .categorie-option {
@@ -29,4 +30,26 @@
     font-weight: var(--title-weight);
     color: var(--text-primary-color);
     text-decoration: none;
+}
+
+@media screen and (min-width: 768px) { 
+    .display-categories {
+        display: flex;
+        flex-wrap: wrap;        
+        justify-content: space-evenly;
+    }
+
+    .categorie-option {
+        width: 312px;
+        height: 220px;  
+        padding: 0 12px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .categorie-option {
+        justify-content: space-around;
+        width: 280px;
+        gap: 0;
+    }
 }
