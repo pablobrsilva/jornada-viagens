@@ -51,6 +51,18 @@ body {
   color: var(--text-primary-color);
 }
 
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.content-text {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+  text-align: left;
+}
+
 .section-title h2 {
   font-size: 28px;
   font-weight: var(--title-weight);
