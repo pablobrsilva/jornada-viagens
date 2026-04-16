@@ -1,0 +1,77 @@
+.payments {
+    padding: 0 24px;
+}
+
+.payments .image-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    height: 460px;
+    margin-top: 24px;
+    width: 100%;
+}
+
+.payments .content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.payments .image-gallery .image.bag {
+    background: url(../img/Montagem-japao-1.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .image-gallery .image.passport {
+    background: url(../img/Montagem-japao-2.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .image-gallery .image.people {
+    background: url(../img/Montagem-japao-3.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .image-gallery .image.colspan-2 {
+    grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+    .payments .image-gallery .image.bag {
+        background: url(../img/Montagem-japao-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .image-gallery .image.passport {
+        background: url(../img/Montagem-japao-tablet-2.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .image-gallery .image.people {
+        background: url(../img/Montagem-japao-tablet-3.png) no-repeat;
+        background-size: cover;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .payments {
+        padding: 0 120px;
+    }
+
+    .payments .content-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .payments .content-container {
+        justify-content: space-between;
+    } 
+
+    .payments .container-text .image-gallery {
+        width: 790px;
+    }
+
+    .payments .container-text .text-content {
+        width: 360px;
+    }
+}
